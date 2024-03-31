@@ -9,6 +9,7 @@ body {
 }
 
 .contenedor-nav{
+    overflow: hidden;
     width: 100%;
 }
 
@@ -51,16 +52,19 @@ body {
 }
 
 .column-medio{
+  width: 98%;
+
+  height: 100vh;
 
 }
 
 
-
 .navigate-inicio{
   text-align: center;
-  position: fixed;
-  width: 50%;
-  background-color: #ccc;
+  position: sticky; /* Fija el elemento */
+  top: 0; /* Fija el elemento en la parte superior del contenedor */
+  width: 100%;
+  background-color: #3d3d3d;
 }
 .navigate-inicio ul{
   display: flex;
@@ -70,6 +74,7 @@ body {
 }
 
 .navigate-inicio ul li a{
+
   color: aliceblue;
 }
 
@@ -81,10 +86,12 @@ body {
   overflow: hidden;
 }
 #salaDeJuego, #tableroAnalisis, #jugarConOrdenador {
+  padding-top: 50px;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 
@@ -101,7 +108,7 @@ body {
   grid-template-columns: 15% 70% 15%;
   gap: 10px;
   padding: 10px;
-  min-height: 80vh;
+  min-height: 100vh;
 }
 
 .column {
