@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: rgb(39, 39, 39);
+
 }
 
 #h1{
@@ -12,7 +13,7 @@ body {
 }
 
 .navigate {
-width: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   background-color: rgb(70, 69, 69);;
@@ -23,7 +24,6 @@ width: 100%;
     padding-right:250px ;
     color: aliceblue;
     font-size: 60px;
-
 }
 
 
@@ -36,11 +36,11 @@ width: 100%;
 }
 
 .navigate li {
-
     color: aliceblue;
     padding-left: 10%;
     padding-right: -20%;
 }
+
 .navigate li a {
     width: 100%;
     background-color: rgb(30, 41, 51);
@@ -49,6 +49,46 @@ width: 100%;
     color: aliceblue;
     text-decoration: none;
 }
+
+.column-medio{
+
+}
+
+
+
+.navigate-inicio{
+  text-align: center;
+  position: fixed;
+  width: 50%;
+  background-color: #ccc;
+}
+.navigate-inicio ul{
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.navigate-inicio ul li a{
+  color: aliceblue;
+}
+
+
+
+.seccionTotal {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+#salaDeJuego, #tableroAnalisis, #jugarConOrdenador {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 
 .contenedor-main {
   display: flex;
@@ -65,12 +105,11 @@ width: 100%;
 }
 
 .column {
-
   border: 1px solid white;
   color: aliceblue;
   padding: 10px;
-
 }
+
 .column .boton-tiempo{
     cursor: pointer;
     font-size: 2em;
@@ -80,8 +119,12 @@ width: 100%;
     padding:25px;
 }
 
+.column .boton-jugador{
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 100%;
 
-
+}
 
 
 .column p{
